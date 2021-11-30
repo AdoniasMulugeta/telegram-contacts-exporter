@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body class="container">
+
+<header>
+
+</header>
+
+<main>
+    <div class="jumbotron">
+        <table>
+            <% for(var i=0; i < data.length; i++) { %>
+                <tr>
+                    <td><%= data[i]['Name'] %></td>
+                    <td><%= data[i]['Phone 1 - Value'] %></td>
+                </tr>
+            <% } %>
+        </table>
+    </div>
+</main>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
